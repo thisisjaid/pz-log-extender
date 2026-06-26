@@ -4,7 +4,7 @@
 --
 
 logutils = {
-    version = "0.14.0", -- in semantic versioning (http://semver.org/)
+    version = "0.1.0", -- in semantic versioning (http://semver.org/)
     pzversion = getCore():getVersionNumber(),
 
     -- Placeholders for Project Zomboid log file names.

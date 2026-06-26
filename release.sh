@@ -30,9 +30,9 @@ esac
 WORKSHOP_DIR="b42_${MOD_STAGE}"
 SRC_DIR="src/b42"
 
-MOD_NAME="LogExtender"
+MOD_NAME="B42LogExtender"
 if [ "${MOD_STAGE}" == "test" ] || [ "${MOD_STAGE}" == "local" ]; then
-  MOD_NAME="LogExtenderB42Test"
+  MOD_NAME="B42LogExtenderTest"
 fi
 
 echo "[ INFO ] Preparing ${MOD_NAME} release v${MOD_VERSION} (stage=${MOD_STAGE})"
