@@ -197,3 +197,12 @@ option LogExtender.BrushToolLogs
   page = LogExtender,
   translation = LogExtender_BrushToolLogs
 }
+
+option LogExtender.AnimalActions
+{
+  type = boolean,
+  default = true,
+
+  page = LogExtender,
+  translation = LogExtender_AnimalActions
+}

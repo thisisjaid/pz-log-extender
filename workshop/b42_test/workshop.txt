@@ -1,5 +1,5 @@
 version=1
-id=2764199572
+id=
 title=Log Extender B42 Test
 description=Adds more logs to the Logs directory the Project Zomboid game.
 description=

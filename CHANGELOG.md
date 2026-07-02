@@ -4,11 +4,17 @@ All notable changes to this project will be documented in this file.
 **ATTN**: This project uses [semantic versioning](http://semver.org/).
 
 ## [Unreleased]
+
+## [v0.2.0] - 2026-07-02
 ### Added
+- Added animal action logs to `animal.txt` file. Logs Build 42 animal timed actions (kill, kill in inventory, pickup, butcher, put on and remove from hook, load and unload trailer, attach to player, grab from and put in hutch), controlled by the new `AnimalActions` sandbox option. Each entry records the animal's player-assigned custom name if set, otherwise its breed and type display name.
 - Added skipping player tick log when character is dead.
 - Added death log to player file.
 
-## Removed
+### Changed
+- Converted the mod to Build 42.
+
+### Removed
 - Removed functions `writeLog`, `getLogLinePrefix`, `getLocation`, `getPlayerSafehouses`, `getPlayerPerks`, `getPlayerTraits`, `getPlayerStats`, `getPlayerHealth`, `getVehicleInfo` from LogExtenderClient. These functions were deprecated on v0.12 and moved to logutils.
 
 ## [v0.12.0] - 2024-06-03

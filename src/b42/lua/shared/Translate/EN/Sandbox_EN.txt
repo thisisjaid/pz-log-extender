@@ -22,4 +22,5 @@ Sandbox_EN = {
     Sandbox_AdminTeleport = "AdminTeleport",
     Sandbox_AlternativeMap = "AlternativeMap",
     Sandbox_BrushToolLogs = "BrushToolLogs",
+    Sandbox_AnimalActions = "AnimalActions",
 }

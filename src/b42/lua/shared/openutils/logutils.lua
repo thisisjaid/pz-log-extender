@@ -24,6 +24,7 @@ logutils = {
         craft = "craft",
         map_alternative = "map_alternative",
         brushtool = "brushtool",
+        animal = "animal",
     },
 }
 
